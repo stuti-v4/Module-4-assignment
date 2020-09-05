@@ -29,6 +29,7 @@ WARNING!!! WARNING!!!
 
 // STEP 1:
 // Wrap the entire contents of script.js inside of an IIFE
+(function print(){
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
@@ -55,9 +56,11 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */) {
+  if (/* fill in condition here */) 
+  {
     // byeSpeaker.xxxx
-  } else {
+  } else 
+  {
     // helloSpeaker.xxxx
   }
-}
+});
